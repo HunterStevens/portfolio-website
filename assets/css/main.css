@@ -1336,7 +1336,7 @@ input, select, textarea {
 			}
 
 			#header nav{
-				Width: 100%
+				Width: 80%
 			}
 		#header nav ul {
 			display: -moz-flex;
@@ -1348,12 +1348,13 @@ input, select, textarea {
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
-			border-radius: 5%;
+			border-radius: 10%;
 		}
 
 			#header nav ul li {
-				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				padding-left: 2%;
+				text-align: center;
+				
 			}
 
 				#header nav ul li:first-child {
@@ -1366,14 +1367,19 @@ input, select, textarea {
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
-					text-transform: uppercase;
+					text-transform: capitalize;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					background-color: rgba(100, 100, 100, 0.8);
+					border-radius: 20%;
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(255, 255, 255, 1);
+						color: #000000;
+						text-transform: uppercase;
+						font-weight: bold;
 					}
 
 					#header nav ul li a:active {
